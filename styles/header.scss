@@ -66,6 +66,10 @@
 .wrapper {
 }
 .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   padding: 17px 15px;
   background-color: #181818;
   // .header__body
