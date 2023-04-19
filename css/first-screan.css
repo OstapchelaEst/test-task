@@ -91,7 +91,6 @@
 
 .yellow-button {
   display: block;
-  font-size: #000;
   font-size: calc(2vh + 2vw - 5px);
   padding: 13px 17px;
   background-color: #f4ce0c;
