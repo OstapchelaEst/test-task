@@ -1,0 +1,37 @@
+@import "./constants.scss";
+.third-screen {
+  // .third-screen__container
+  &__container {
+  }
+  &__body {
+    padding: 38px 11px;
+  }
+
+  // .third-screen__info
+  &__info {
+    margin-bottom: 38px;
+    color: #272727;
+    font-size: 16px;
+    @media (min-width: 900px) {
+      font-size: 24px;
+    }
+    & span {
+      font-weight: 700;
+    }
+  }
+  // .third-screen__image
+  &__image {
+    margin-bottom: 10px;
+    & img {
+      display: block;
+      width: 100%;
+      max-width: 50%;
+      margin: 0 auto;
+    }
+  }
+  // .third-screen__button
+  &__button {
+  }
+}
+.yellow-button {
+}

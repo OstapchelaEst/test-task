@@ -1,0 +1,76 @@
+@import "./constants.scss";
+
+.fourth-screen {
+  padding: 30px 0px 30px;
+  background: url("./../assets/fourth-screen-bg.png");
+  // .fourth-screen__container
+  &__container {
+  }
+  // .fourth-screen__body
+  &__body {
+    text-align: center;
+  }
+  // .fourth-screen__first-info
+  &__first-info {
+    font-size: 18px;
+    letter-spacing: 5%;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  // .fourth-screen__card
+  &__card {
+    padding: 25px 14px;
+    background: rgba(243, 243, 242, 0.8);
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 1;
+    & span {
+      font-weight: 700;
+    }
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      width: 165px;
+      height: 195px;
+      z-index: -1;
+    }
+    &::before {
+      background: url("./../assets/lightning-1.svg");
+      bottom: -60px;
+      left: -100px;
+    }
+    &::after {
+      background: url("./../assets/lightning-2.svg");
+      top: -60px;
+      right: -100px;
+    }
+  }
+  // .fourth-screen__second-info
+  &__second-info {
+  }
+  // .fourth-screen__button
+  &__button {
+  }
+}
+
+.transparent-button {
+  color: #fff;
+  border: 2px solid #fff;
+  display: block;
+  font-size: calc($fontSize - 5px);
+  padding: 13px 17px;
+  background-color: transparent;
+  border-radius: 35px;
+  margin: 0 auto;
+  transition: all 0.3s ease 0s;
+  @media (any-hover: hover) {
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,700,700italic");
+.second-screan {
+  background: url("./../assets/second-screan-bg.png") no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 83px 36px 28px;
+}
+.second-screan__info {
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.27;
+  font-size: calc(2vh + 2vw + 3px);
+  color: #fff;
+  position: relative;
+}
+.second-screan__info::before, .second-screan__info::after {
+  content: "";
+  position: absolute;
+  width: 23px;
+  height: 23px;
+}
+.second-screan__info::before {
+  top: -33px;
+  left: -15px;
+  background: url("./../assets/decoration-1.svg");
+}
+.second-screan__info::after {
+  background: url("./../assets/decoration-2.svg");
+  bottom: -23px;
+  right: -15px;
+}

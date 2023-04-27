@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,700,700italic");
+.third-screen__body {
+  padding: 38px 11px;
+}
+.third-screen__info {
+  margin-bottom: 38px;
+  color: #272727;
+  font-size: 16px;
+}
+@media (min-width: 900px) {
+  .third-screen__info {
+    font-size: 24px;
+  }
+}
+.third-screen__info span {
+  font-weight: 700;
+}
+.third-screen__image {
+  margin-bottom: 10px;
+}
+.third-screen__image img {
+  display: block;
+  width: 100%;
+  max-width: 50%;
+  margin: 0 auto;
+}
